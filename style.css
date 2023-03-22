@@ -1,3 +1,27 @@
-body{
-    background-color: crimson;
+/*Blue background to whole page */
+.bg {
+            
+    background-color: rgb(1, 78, 194);
+    height: 100%;
+}
+
+/*Adds detail to the login box*/
+.my-custom-row{
+    background-color: rgb(0, 0, 0);
+    justify-content: center;
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,9,181,1);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,9,181,1);
+    box-shadow: 10px 10px 5px 0px rgba(0,9,181,1);
+    border-radius: 25px;
+    width: 700px;
+    height: 250px;
+
+}
+
+/*Centers the Login box*/
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 750px;
 }
